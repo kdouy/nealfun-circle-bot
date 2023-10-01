@@ -23,7 +23,7 @@ while True:
     if completed and keyboard.is_pressed("e"):
         completed = False
 
-        for index in range(380):
+        for index in range(360):
             screenWidth = GetSystemMetrics(0)
             screenHeight = GetSystemMetrics(1)
 
